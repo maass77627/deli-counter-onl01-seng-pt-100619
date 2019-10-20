@@ -6,7 +6,7 @@ if array.length == 0
 end
 puts "The line is currently: "
   array.each_with_index do |name, index|
-    customer += "#{index + 1}. #{name} "
+    customers += "#{index + 1}. #{name} "
   end
   puts customers
 end
