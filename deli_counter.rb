@@ -19,6 +19,8 @@ end
      return "There is nobody waiting to be served!" 
     end
      customer = array.shift 
+     puts "Currently serving #{customer}."
+   end 
      
   
  
