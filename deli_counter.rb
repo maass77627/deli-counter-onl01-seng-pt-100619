@@ -13,6 +13,11 @@ if array.length == 0
 end
 puts "The line is currently: "
   array.each_with_index do |name, index|
-    puts "#index"
+    puts "#{index}. #{name} "
+  end
+end
+
+def take_a_number(array, "name")
+  
  
   
