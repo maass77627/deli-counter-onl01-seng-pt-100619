@@ -7,8 +7,7 @@ customers = "The line is currently: "
   array.each_with_index do |name, index|
     customers += "#{index + 1}. #{name} "
   end
-  puts customers
-  return
+  puts customers.rstrip
 end
 
 def take_a_number(array,customer)
