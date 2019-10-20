@@ -19,7 +19,10 @@ end
 
 def take_a_number(array,customer)
   array.push(customer)
-  puts "Welcome #{customer}. You are number #{array.length} in line."
+  puts "Welcome, #{customer}. You are number #{array.length} in line."
+end 
+ 
+ 
   
  
   
