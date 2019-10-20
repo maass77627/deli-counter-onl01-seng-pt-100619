@@ -9,6 +9,7 @@ customers = "The line is currently: "
     customers += "#{index + 1}. #{name} "
   end
   puts customers
+  return
 end
 
 def take_a_number(array,customer)
