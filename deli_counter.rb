@@ -20,8 +20,8 @@ end
      puts "There is nobody waiting to be served!"
      return
     end
-     customer = array.shift 
-     puts "Currently serving #{customer}."
+     puts "Currently serving #{array[0]}."
+     array.shift
    end 
      
   
