@@ -17,7 +17,9 @@ puts "The line is currently: "
   end
 end
 
-def take_a_number(array, "name")
+def take_a_number(array,customer)
+  array.push(customer)
+  puts "Welcome #{customer}. You are number #{array."
   
  
   
